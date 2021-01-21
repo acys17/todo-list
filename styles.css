@@ -44,7 +44,11 @@ body main .list-container {
   border: 1px solid #cdcccc;
 }
 
-body main .list-container .clear {
+body main .list-container .list {
+  margin: 10%;
+}
+
+body main .list-container .list .clear {
   position: absolute;
   right: 2%;
   top: 1%;
@@ -53,11 +57,11 @@ body main .list-container .clear {
   text-decoration: none;
 }
 
-body main .list-container h1 {
+body main .list-container .list h1 {
   padding-bottom: 2vh;
 }
 
-body main .list-container li {
+body main .list-container .list li {
   cursor: pointer;
 }
 
