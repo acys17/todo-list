@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+body main {
+  height: 90vh;
+  width: 100vw;
+  margin: 5vh 0;
+  font-size: 2rem;
+}
+
+body main .list-container {
+  position: relative;
+  background-color: #fcfcfc;
+  background: url("./assets/img/lined_paper.png");
+  -webkit-box-shadow: 10px 10px 20px #b0b0b0;
+          box-shadow: 10px 10px 20px #b0b0b0;
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #cdcccc;
+}
+
+body main .list-container .clear {
+  position: absolute;
+  right: 2%;
+  top: 1%;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+body main .list-container h1 {
+  padding-bottom: 2vh;
+}
+
+body main .list-container li {
+  cursor: pointer;
+}
+
+body main .list-container form .input-box, body main .list-container form .submit-button {
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+body main .list-container form .input-box {
+  width: 150px;
+}
+
+body main .list-container form .submit-button {
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .list-container {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

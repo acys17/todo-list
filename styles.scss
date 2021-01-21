@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+
+    main {
+        height: 90vh;
+        width: 100vw;
+        margin: 5vh 0;
+        font-size: 2rem;
+        
+        .list-container {
+            position: relative;
+            background-color: rgb(252, 252, 252);
+            background: url("./assets/img/lined_paper.png");
+            box-shadow: 10px 10px 20px rgb(176, 176, 176);
+            padding: 5% 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100%;
+            width: 90%;
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px solid rgb(205, 204, 204);
+            
+            .clear {
+                position: absolute;
+                right: 2%;
+                top: 1%;
+                font-size: 1.2rem;
+                color: black;
+                text-decoration: none;
+            }
+
+            h1 {
+                padding-bottom: 2vh;
+            }
+
+            li {
+                cursor: pointer;
+            }
+
+            form {
+                .input-box, .submit-button {
+                    height: 40px;
+                    font-size: 1.5rem;
+                }
+
+                .input-box {
+                    width: 150px;
+                }
+
+                .submit-button {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .list-container {
+        width: 90%;
+    }
+}
