@@ -7,7 +7,9 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background: url("./assets/img/blackboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body main {
@@ -19,10 +21,9 @@ body main {
 
 body main .list-container {
   position: relative;
-  background-color: #fcfcfc;
   background: url("./assets/img/lined_paper.png");
-  -webkit-box-shadow: 10px 10px 20px #b0b0b0;
-          box-shadow: 10px 10px 20px #b0b0b0;
+  -webkit-box-shadow: 10px 10px 20px #656363;
+          box-shadow: 10px 10px 20px #656363;
   padding: 5% 0;
   display: -webkit-box;
   display: -ms-flexbox;

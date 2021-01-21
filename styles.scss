@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background: url("./assets/img/blackboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
     main {
         height: 90vh;
@@ -16,9 +18,8 @@ body {
         
         .list-container {
             position: relative;
-            background-color: rgb(252, 252, 252);
             background: url("./assets/img/lined_paper.png");
-            box-shadow: 10px 10px 20px rgb(176, 176, 176);
+            box-shadow: 10px 10px 20px rgb(101, 99, 99);
             padding: 5% 0;
             display: flex;
             flex-direction: column;
